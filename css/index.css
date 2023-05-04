@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+/* Inicio Navbar */
+
+nav{
+    height: 80px;
+    width: 100%;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    font-weight: bold;
+    color: black;
+}
+
+nav ul li a:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+.logoTitulo{
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    display: none;
+}
+
+#checkNav{
+    display: none;
+}
+
+/* Fim Navbar */
+
+@media (max-width: 952px){
+    .logoTitulo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    nav ul li a{
+        font-size: 16px;        
+    }
+}
+
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: white;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 50px;
+        line-height: 30px;
+        border-bottom: 1px solid #888;
+    }
+
+    nav ul li a{
+        font-size: 20px;
+    }
+
+    #checkNav:checked ~ ul{
+        left: 0;
+    }
+}
