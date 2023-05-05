@@ -8,7 +8,7 @@
 
 body{
     font-family: sans-serif;
-    background: none;
+    background-image: url("/assets/backgroundIndex.png");
 }
 
 /* Inicio Navbar */
@@ -19,7 +19,7 @@ nav{
 }
 
 nav span{
-    color: blue;
+    color: #38B6FF;
 }
 
 nav ul{
@@ -44,7 +44,7 @@ nav ul li a{
 
 nav ul li a:hover{
     cursor: pointer;
-    color: blue;
+    color: #38B6FF;
 }
 
 .logoTitulo{
@@ -76,7 +76,7 @@ nav ul li a:hover{
 }
 
 .main span{
-    color: blue;
+    color: #38B6FF;
 }
 
 .main h1,p{
