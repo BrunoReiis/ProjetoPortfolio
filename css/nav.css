@@ -1,6 +1,7 @@
 nav{
     height: 80px;
     width: 100%;
+    font-family: sans-serif;
 }
 
 nav span{
@@ -101,6 +102,7 @@ nav ul li a:hover{
     #checkNav:checked ~ .textoIndex{
         display: none;
     }
+
 }
 
 @media (max-width: 441px){
