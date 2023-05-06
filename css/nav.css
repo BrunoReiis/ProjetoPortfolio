@@ -56,7 +56,7 @@ nav ul li a:hover{
 }
 
 @media (max-width: 952px){
-    .logoTitulo{
+    .logoTitulo a{
         font-size: 30px;
         padding-left: 50px;
     }
@@ -106,7 +106,7 @@ nav ul li a:hover{
 }
 
 @media (max-width: 441px){
-    .logoTitulo{
+    .logoTitulo a{
         padding: 0 0 0 10px;
     }
 }
